@@ -1,0 +1,32 @@
+# Main environment (Python 3.11.16; one CUDA GPU that holds FLUX.1-dev in bf16).  All numbers of the
+# paper were produced with these versions.  Merge building (mix_stats / ssr_rc /
+# run_spherical_proto --stage build) is CPU-only; calib_stats.py needs the GPU.
+torch==2.13.0
+torchvision==0.28.0
+diffusers==0.42.1
+transformers==5.16.1
+peft==0.20.0
+accelerate==1.14.0
+safetensors==0.8.0
+sentencepiece==0.2.2
+protobuf==6.33.6
+numpy==2.3.5
+scipy==1.17.1
+scikit-learn==1.9.1
+pillow==12.3.0
+matplotlib==3.11.2
+tqdm==4.70.0
+bitsandbytes==0.50.2      # optional: 8-bit AdamW in train_lora.py
+reportlab==5.1.0          # user_study.py (PDF of the blind trials)
+pypdf==6.18.1             # user_study.py
+
+# ---------------------------------------------------------------------------------------------
+# Two auxiliary venvs (created with --system-site-packages on top of the main env), because the
+# upstream packages pin older transformers / diffusers:
+#
+# envs/metrics   (scripts/std_metrics.py: HPSv2.1, ImageReward, CLIP-T/I)
+#   transformers==4.46.3 diffusers==0.31.0 hpsv2==1.2.0 image-reward==1.5 openai-clip==1.0.1
+#   timm==1.0.29 fairscale==0.4.13
+#
+# envs/ls031     (scripts/run_lorashop.py, the official LoRAShop code)
+#   transformers==4.46.3 diffusers==0.31.0 peft==0.13.2

@@ -1,0 +1,95 @@
+
+=== K20 two subjects, pooled seeds; paired diff vs sph_rc_nm_s0_up_K20 (bootstrap SE)
+  rg_base_na_f0_K20                            n=120 min 0.0677 mean 0.2177 both 0.242 minDet 0.0207 | n_paired 120 dmin -0.0092±0.0111 dmean -0.1036±0.0111 dboth +0.0917±0.0394
+  rg_base_na_f1_n0_p2_cos_K20                  n=120 min 0.1728 mean 0.2817 both 0.775 minDet 0.1479 | n_paired 120 dmin +0.0958±0.0127 dmean -0.0397±0.0109 dboth +0.6250±0.0449
+  rg_base_na_f1_n0_p2_cos_ii1_sg2_sgmb_K20     n=120 min 0.1850 mean 0.2914 both 0.808 minDet 0.1635 | n_paired 120 dmin +0.1081±0.0131 dmean -0.0299±0.0108 dboth +0.6583±0.0432
+  rg_nm_lg_f1_n0_p2_cos_K20                    n=120 min 0.2192 mean 0.3513 both 0.600 minDet 0.1588 | n_paired 120 dmin +0.1423±0.0149 dmean +0.0300±0.0111 dboth +0.4500±0.0468
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20 n=120 min 0.2497 mean 0.3860 both 0.800 minDet 0.2175 | n_paired 120 dmin +0.1728±0.0165 dmean +0.0647±0.0126 dboth +0.6500±0.0433
+  rg_nm_st_f1_n0_p2_cos_K20                    n=120 min 0.2104 mean 0.3748 both 0.558 minDet 0.1442 | n_paired 120 dmin +0.1334±0.0143 dmean +0.0535±0.0105 dboth +0.4083±0.0491
+  rg_nm_st_f1_n0_p2_cos_ii1_sg2_sgmb_K20       n=120 min 0.2519 mean 0.3961 both 0.758 minDet 0.2097 | n_paired 120 dmin +0.1750±0.0163 dmean +0.0748±0.0122 dboth +0.6083±0.0463
+  sph_rc_nm_s0_up_K20                          n=120 min 0.0769 mean 0.3213 both 0.150 minDet 0.0319
+
+=== K20 two subjects, pooled seeds; paired diff vs rg_base_na_f1_n0_p2_cos_K20 (bootstrap SE)
+  rg_base_na_f0_K20                            n=120 min 0.0677 mean 0.2177 both 0.242 minDet 0.0207 | n_paired 120 dmin -0.1050±0.0103 dmean -0.0639±0.0086 dboth -0.5333±0.0475
+  rg_base_na_f1_n0_p2_cos_K20                  n=120 min 0.1728 mean 0.2817 both 0.775 minDet 0.1479
+  rg_base_na_f1_n0_p2_cos_ii1_sg2_sgmb_K20     n=120 min 0.1850 mean 0.2914 both 0.808 minDet 0.1635 | n_paired 120 dmin +0.0123±0.0079 dmean +0.0098±0.0070 dboth +0.0333±0.0356
+  rg_nm_lg_f1_n0_p2_cos_K20                    n=120 min 0.2192 mean 0.3513 both 0.600 minDet 0.1588 | n_paired 120 dmin +0.0464±0.0116 dmean +0.0696±0.0089 dboth -0.1750±0.0489
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20 n=120 min 0.2497 mean 0.3860 both 0.800 minDet 0.2175 | n_paired 120 dmin +0.0769±0.0116 dmean +0.1044±0.0093 dboth +0.0250±0.0481
+  rg_nm_st_f1_n0_p2_cos_K20                    n=120 min 0.2104 mean 0.3748 both 0.558 minDet 0.1442 | n_paired 120 dmin +0.0376±0.0127 dmean +0.0931±0.0088 dboth -0.2167±0.0531
+  rg_nm_st_f1_n0_p2_cos_ii1_sg2_sgmb_K20       n=120 min 0.2519 mean 0.3961 both 0.758 minDet 0.2097 | n_paired 120 dmin +0.0792±0.0132 dmean +0.1145±0.0102 dboth -0.0167±0.0547
+  sph_rc_nm_s0_up_K20                          n=120 min 0.0769 mean 0.3213 both 0.150 minDet 0.0319 | n_paired 120 dmin -0.0958±0.0128 dmean +0.0397±0.0111 dboth -0.6250±0.0441
+
+=== K20 two subjects, pooled seeds; paired diff vs rg_nm_st_f1_n0_p2_cos_K20 (bootstrap SE)
+  rg_base_na_f0_K20                            n=120 min 0.0677 mean 0.2177 both 0.242 minDet 0.0207 | n_paired 120 dmin -0.1427±0.0155 dmean -0.1570±0.0111 dboth -0.3167±0.0526
+  rg_base_na_f1_n0_p2_cos_K20                  n=120 min 0.1728 mean 0.2817 both 0.775 minDet 0.1479 | n_paired 120 dmin -0.0376±0.0122 dmean -0.0931±0.0086 dboth +0.2167±0.0536
+  rg_base_na_f1_n0_p2_cos_ii1_sg2_sgmb_K20     n=120 min 0.1850 mean 0.2914 both 0.808 minDet 0.1635 | n_paired 120 dmin -0.0253±0.0115 dmean -0.0834±0.0083 dboth +0.2500±0.0519
+  rg_nm_lg_f1_n0_p2_cos_K20                    n=120 min 0.2192 mean 0.3513 both 0.600 minDet 0.1588 | n_paired 120 dmin +0.0088±0.0119 dmean -0.0235±0.0085 dboth +0.0417±0.0459
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20 n=120 min 0.2497 mean 0.3860 both 0.800 minDet 0.2175 | n_paired 120 dmin +0.0393±0.0132 dmean +0.0113±0.0094 dboth +0.2417±0.0431
+  rg_nm_st_f1_n0_p2_cos_K20                    n=120 min 0.2104 mean 0.3748 both 0.558 minDet 0.1442
+  rg_nm_st_f1_n0_p2_cos_ii1_sg2_sgmb_K20       n=120 min 0.2519 mean 0.3961 both 0.758 minDet 0.2097 | n_paired 120 dmin +0.0416±0.0134 dmean +0.0214±0.0087 dboth +0.2000±0.0486
+  sph_rc_nm_s0_up_K20                          n=120 min 0.0769 mean 0.3213 both 0.150 minDet 0.0319 | n_paired 120 dmin -0.1334±0.0145 dmean -0.0535±0.0106 dboth -0.4083±0.0490
+
+=== K20 two subjects, pooled seeds; paired diff vs rg_nm_lg_f1_n0_p2_cos_K20 (bootstrap SE)
+  rg_base_na_f0_K20                            n=120 min 0.0677 mean 0.2177 both 0.242 minDet 0.0207 | n_paired 120 dmin -0.1515±0.0145 dmean -0.1335±0.0113 dboth -0.3583±0.0524
+  rg_base_na_f1_n0_p2_cos_K20                  n=120 min 0.1728 mean 0.2817 both 0.775 minDet 0.1479 | n_paired 120 dmin -0.0464±0.0110 dmean -0.0696±0.0087 dboth +0.1750±0.0479
+  rg_base_na_f1_n0_p2_cos_ii1_sg2_sgmb_K20     n=120 min 0.1850 mean 0.2914 both 0.808 minDet 0.1635 | n_paired 120 dmin -0.0341±0.0107 dmean -0.0598±0.0083 dboth +0.2083±0.0453
+  rg_nm_lg_f1_n0_p2_cos_K20                    n=120 min 0.2192 mean 0.3513 both 0.600 minDet 0.1588
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20 n=120 min 0.2497 mean 0.3860 both 0.800 minDet 0.2175 | n_paired 120 dmin +0.0305±0.0105 dmean +0.0348±0.0088 dboth +0.2000±0.0392
+  rg_nm_st_f1_n0_p2_cos_K20                    n=120 min 0.2104 mean 0.3748 both 0.558 minDet 0.1442 | n_paired 120 dmin -0.0088±0.0120 dmean +0.0235±0.0085 dboth -0.0417±0.0463
+  rg_nm_st_f1_n0_p2_cos_ii1_sg2_sgmb_K20       n=120 min 0.2519 mean 0.3961 both 0.758 minDet 0.2097 | n_paired 120 dmin +0.0328±0.0119 dmean +0.0449±0.0092 dboth +0.1583±0.0449
+  sph_rc_nm_s0_up_K20                          n=120 min 0.0769 mean 0.3213 both 0.150 minDet 0.0319 | n_paired 120 dmin -0.1423±0.0148 dmean -0.0300±0.0110 dboth -0.4500±0.0477
+
+=== K20 two subjects, pooled seeds; paired diff vs rg_nm_st_f1_n0_p2_cos_ii1_sg2_sgmb_K20 (bootstrap SE)
+  rg_base_na_f0_K20                            n=120 min 0.0677 mean 0.2177 both 0.242 minDet 0.0207 | n_paired 120 dmin -0.1842±0.0166 dmean -0.1784±0.0128 dboth -0.5167±0.0503
+  rg_base_na_f1_n0_p2_cos_K20                  n=120 min 0.1728 mean 0.2817 both 0.775 minDet 0.1479 | n_paired 120 dmin -0.0792±0.0135 dmean -0.1145±0.0103 dboth +0.0167±0.0553
+  rg_base_na_f1_n0_p2_cos_ii1_sg2_sgmb_K20     n=120 min 0.1850 mean 0.2914 both 0.808 minDet 0.1635 | n_paired 120 dmin -0.0669±0.0108 dmean -0.1047±0.0089 dboth +0.0500±0.0483
+  rg_nm_lg_f1_n0_p2_cos_K20                    n=120 min 0.2192 mean 0.3513 both 0.600 minDet 0.1588 | n_paired 120 dmin -0.0328±0.0119 dmean -0.0449±0.0091 dboth -0.1583±0.0442
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20 n=120 min 0.2497 mean 0.3860 both 0.800 minDet 0.2175 | n_paired 120 dmin -0.0022±0.0123 dmean -0.0101±0.0090 dboth +0.0417±0.0370
+  rg_nm_st_f1_n0_p2_cos_K20                    n=120 min 0.2104 mean 0.3748 both 0.558 minDet 0.1442 | n_paired 120 dmin -0.0416±0.0134 dmean -0.0214±0.0087 dboth -0.2000±0.0486
+  rg_nm_st_f1_n0_p2_cos_ii1_sg2_sgmb_K20       n=120 min 0.2519 mean 0.3961 both 0.758 minDet 0.2097
+  sph_rc_nm_s0_up_K20                          n=120 min 0.0769 mean 0.3213 both 0.150 minDet 0.0319 | n_paired 120 dmin -0.1750±0.0163 dmean -0.0748±0.0122 dboth -0.6083±0.0463
+=== collage-aware, paired diff vs sph_rc_nm_s0_up_K20
+  rg_base_na_f0_K20                            n=120 col 0.058 bothC 0.233 minC 0.066 meanC 0.207 dbothC +0.0833±0.0389 dminC -0.0108±0.0112 dmeanC -0.1145±0.0115
+  rg_base_na_f1_n0_p2_cos_K20                  n=120 col 0.050 bothC 0.758 minC 0.168 meanC 0.272 dbothC +0.6083±0.0482 dminC +0.0910±0.0130 dmeanC -0.0488±0.0111
+  rg_base_na_f1_n0_p2_cos_ii1_sg2_sgmb_K20     n=120 col 0.125 bothC 0.725 minC 0.172 meanC 0.264 dbothC +0.5750±0.0502 dminC +0.0954±0.0138 dmeanC -0.0570±0.0124
+  rg_nm_lg_f1_n0_p2_cos_K20                    n=120 col 0.008 bothC 0.592 minC 0.217 meanC 0.348 dbothC +0.4417±0.0468 dminC +0.1400±0.0150 dmeanC +0.0267±0.0109
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20 n=120 col 0.025 bothC 0.783 minC 0.245 meanC 0.379 dbothC +0.6333±0.0441 dminC +0.1680±0.0169 dmeanC +0.0581±0.0133
+  rg_nm_st_f1_n0_p2_cos_K20                    n=120 col 0.025 bothC 0.542 minC 0.207 meanC 0.368 dbothC +0.3917±0.0484 dminC +0.1304±0.0146 dmeanC +0.0465±0.0106
+  rg_nm_st_f1_n0_p2_cos_ii1_sg2_sgmb_K20       n=120 col 0.050 bothC 0.725 minC 0.240 meanC 0.376 dbothC +0.5750±0.0482 dminC +0.1634±0.0179 dmeanC +0.0549±0.0142
+  sph_rc_nm_s0_up_K20                          n=120 col 0.000 bothC 0.150 minC 0.077 meanC 0.321
+=== collage-aware, paired diff vs rg_base_na_f1_n0_p2_cos_K20
+  rg_base_na_f0_K20                            n=120 col 0.058 bothC 0.233 minC 0.066 meanC 0.207 dbothC -0.5250±0.0503 dminC -0.1018±0.0104 dmeanC -0.0657±0.0102
+  rg_base_na_f1_n0_p2_cos_K20                  n=120 col 0.050 bothC 0.758 minC 0.168 meanC 0.272
+  rg_base_na_f1_n0_p2_cos_ii1_sg2_sgmb_K20     n=120 col 0.125 bothC 0.725 minC 0.172 meanC 0.264 dbothC -0.0333±0.0397 dminC +0.0044±0.0088 dmeanC -0.0082±0.0101
+  rg_nm_lg_f1_n0_p2_cos_K20                    n=120 col 0.008 bothC 0.592 minC 0.217 meanC 0.348 dbothC -0.1667±0.0489 dminC +0.0490±0.0110 dmeanC +0.0756±0.0084
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20 n=120 col 0.025 bothC 0.783 minC 0.245 meanC 0.379 dbothC +0.0250±0.0511 dminC +0.0770±0.0117 dmeanC +0.1070±0.0107
+  rg_nm_st_f1_n0_p2_cos_K20                    n=120 col 0.025 bothC 0.542 minC 0.207 meanC 0.368 dbothC -0.2167±0.0543 dminC +0.0394±0.0125 dmeanC +0.0953±0.0096
+  rg_nm_st_f1_n0_p2_cos_ii1_sg2_sgmb_K20       n=120 col 0.050 bothC 0.725 minC 0.240 meanC 0.376 dbothC -0.0333±0.0549 dminC +0.0724±0.0143 dmeanC +0.1037±0.0128
+  sph_rc_nm_s0_up_K20                          n=120 col 0.000 bothC 0.150 minC 0.077 meanC 0.321 dbothC -0.6083±0.0470 dminC -0.0910±0.0131 dmeanC +0.0488±0.0116
+=== collage-aware, paired diff vs rg_nm_st_f1_n0_p2_cos_K20
+  rg_base_na_f0_K20                            n=120 col 0.058 bothC 0.233 minC 0.066 meanC 0.207 dbothC -0.3083±0.0530 dminC -0.1412±0.0155 dmeanC -0.1610±0.0123
+  rg_base_na_f1_n0_p2_cos_K20                  n=120 col 0.050 bothC 0.758 minC 0.168 meanC 0.272 dbothC +0.2167±0.0541 dminC -0.0394±0.0130 dmeanC -0.0953±0.0097
+  rg_base_na_f1_n0_p2_cos_ii1_sg2_sgmb_K20     n=120 col 0.125 bothC 0.725 minC 0.172 meanC 0.264 dbothC +0.1833±0.0555 dminC -0.0350±0.0125 dmeanC -0.1035±0.0114
+  rg_nm_lg_f1_n0_p2_cos_K20                    n=120 col 0.008 bothC 0.592 minC 0.217 meanC 0.348 dbothC +0.0500±0.0448 dminC +0.0096±0.0117 dmeanC -0.0197±0.0089
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20 n=120 col 0.025 bothC 0.783 minC 0.245 meanC 0.379 dbothC +0.2417±0.0435 dminC +0.0376±0.0129 dmeanC +0.0117±0.0097
+  rg_nm_st_f1_n0_p2_cos_K20                    n=120 col 0.025 bothC 0.542 minC 0.207 meanC 0.368
+  rg_nm_st_f1_n0_p2_cos_ii1_sg2_sgmb_K20       n=120 col 0.050 bothC 0.725 minC 0.240 meanC 0.376 dbothC +0.1833±0.0498 dminC +0.0331±0.0148 dmeanC +0.0084±0.0115
+  sph_rc_nm_s0_up_K20                          n=120 col 0.000 bothC 0.150 minC 0.077 meanC 0.321 dbothC -0.3917±0.0470 dminC -0.1304±0.0143 dmeanC -0.0465±0.0106
+=== collage-aware, paired diff vs rg_nm_lg_f1_n0_p2_cos_K20
+  rg_base_na_f0_K20                            n=120 col 0.058 bothC 0.233 minC 0.066 meanC 0.207 dbothC -0.3583±0.0524 dminC -0.1508±0.0148 dmeanC -0.1412±0.0115
+  rg_base_na_f1_n0_p2_cos_K20                  n=120 col 0.050 bothC 0.758 minC 0.168 meanC 0.272 dbothC +0.1667±0.0497 dminC -0.0490±0.0112 dmeanC -0.0756±0.0085
+  rg_base_na_f1_n0_p2_cos_ii1_sg2_sgmb_K20     n=120 col 0.125 bothC 0.725 minC 0.172 meanC 0.264 dbothC +0.1333±0.0522 dminC -0.0446±0.0115 dmeanC -0.0837±0.0108
+  rg_nm_lg_f1_n0_p2_cos_K20                    n=120 col 0.008 bothC 0.592 minC 0.217 meanC 0.348
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20 n=120 col 0.025 bothC 0.783 minC 0.245 meanC 0.379 dbothC +0.1917±0.0402 dminC +0.0280±0.0104 dmeanC +0.0314±0.0092
+  rg_nm_st_f1_n0_p2_cos_K20                    n=120 col 0.025 bothC 0.542 minC 0.207 meanC 0.368 dbothC -0.0500±0.0458 dminC -0.0096±0.0113 dmeanC +0.0197±0.0086
+  rg_nm_st_f1_n0_p2_cos_ii1_sg2_sgmb_K20       n=120 col 0.050 bothC 0.725 minC 0.240 meanC 0.376 dbothC +0.1333±0.0440 dminC +0.0235±0.0131 dmeanC +0.0281±0.0114
+  sph_rc_nm_s0_up_K20                          n=120 col 0.000 bothC 0.150 minC 0.077 meanC 0.321 dbothC -0.4417±0.0473 dminC -0.1400±0.0148 dmeanC -0.0267±0.0108
+=== collage-aware, paired diff vs rg_nm_st_f1_n0_p2_cos_ii1_sg2_sgmb_K20
+  rg_base_na_f0_K20                            n=120 col 0.058 bothC 0.233 minC 0.066 meanC 0.207 dbothC -0.4917±0.0507 dminC -0.1743±0.0176 dmeanC -0.1694±0.0142
+  rg_base_na_f1_n0_p2_cos_K20                  n=120 col 0.050 bothC 0.758 minC 0.168 meanC 0.272 dbothC +0.0333±0.0559 dminC -0.0724±0.0144 dmeanC -0.1037±0.0127
+  rg_base_na_f1_n0_p2_cos_ii1_sg2_sgmb_K20     n=120 col 0.125 bothC 0.725 minC 0.172 meanC 0.264 dbothC +0.0000±0.0537 dminC -0.0681±0.0120 dmeanC -0.1119±0.0132
+  rg_nm_lg_f1_n0_p2_cos_K20                    n=120 col 0.008 bothC 0.592 minC 0.217 meanC 0.348 dbothC -0.1333±0.0455 dminC -0.0235±0.0133 dmeanC -0.0281±0.0112
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20 n=120 col 0.025 bothC 0.783 minC 0.245 meanC 0.379 dbothC +0.0583±0.0377 dminC +0.0045±0.0133 dmeanC +0.0033±0.0113
+  rg_nm_st_f1_n0_p2_cos_K20                    n=120 col 0.025 bothC 0.542 minC 0.207 meanC 0.368 dbothC -0.1833±0.0501 dminC -0.0331±0.0146 dmeanC -0.0084±0.0111
+  rg_nm_st_f1_n0_p2_cos_ii1_sg2_sgmb_K20       n=120 col 0.050 bothC 0.725 minC 0.240 meanC 0.376
+  sph_rc_nm_s0_up_K20                          n=120 col 0.000 bothC 0.150 minC 0.077 meanC 0.321 dbothC -0.5750±0.0490 dminC -0.1634±0.0178 dmeanC -0.0549±0.0140

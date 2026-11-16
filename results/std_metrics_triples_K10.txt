@@ -1,0 +1,21 @@
+load checkpoint from <ROOT>/models_ext/metrics/imagereward/ImageReward.pt
+checkpoint loaded
+cached rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_K10
+cached rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K10
+cached rg_nm_st_f0_K10
+cached rg_raw_st_f0_K10
+cached rg_ssrm_st_f0_K10
+
+=== paired diff vs rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K10
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_K10                          n=120 hps 0.2915 ir 1.1485 clipT 0.2824 clipI 0.6083 clipImin 0.5504 dhps -0.0018±0.0022 dir -0.1967±0.0790 dclipT -0.0022±0.0028 dclipI -0.0041±0.0050 dclipImin -0.0040±0.0055
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K10                 n=120 hps 0.2933 ir 1.3452 clipT 0.2846 clipI 0.6124 clipImin 0.5545
+  rg_nm_st_f0_K10                                              n=120 hps 0.2595 ir -0.3948 clipT 0.2383 clipI 0.6313 clipImin 0.5460 dhps -0.0338±0.0030 dir -1.7400±0.1072 dclipT -0.0463±0.0046 dclipI +0.0189±0.0062 dclipImin -0.0085±0.0067
+  rg_raw_st_f0_K10                                             n=120 hps 0.0720 ir -2.2727 clipT 0.1456 clipI 0.5415 clipImin 0.4791 dhps -0.2213±0.0032 dir -3.6179±0.0648 dclipT -0.1390±0.0036 dclipI -0.0710±0.0075 dclipImin -0.0753±0.0076
+  rg_ssrm_st_f0_K10                                            n=120 hps 0.1925 ir -1.6370 clipT 0.2175 clipI 0.6032 clipImin 0.5468 dhps -0.1008±0.0042 dir -2.9822±0.0849 dclipT -0.0671±0.0048 dclipI -0.0092±0.0068 dclipImin -0.0077±0.0068
+
+=== paired diff vs rg_nm_st_f0_K10
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_K10                          n=120 hps 0.2915 ir 1.1485 clipT 0.2824 clipI 0.6083 clipImin 0.5504 dhps +0.0320±0.0034 dir +1.5432±0.1219 dclipT +0.0441±0.0046 dclipI -0.0230±0.0065 dclipImin +0.0044±0.0071
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K10                 n=120 hps 0.2933 ir 1.3452 clipT 0.2846 clipI 0.6124 clipImin 0.5545 dhps +0.0338±0.0030 dir +1.7400±0.1048 dclipT +0.0463±0.0047 dclipI -0.0189±0.0063 dclipImin +0.0085±0.0067
+  rg_nm_st_f0_K10                                              n=120 hps 0.2595 ir -0.3948 clipT 0.2383 clipI 0.6313 clipImin 0.5460
+  rg_raw_st_f0_K10                                             n=120 hps 0.0720 ir -2.2727 clipT 0.1456 clipI 0.5415 clipImin 0.4791 dhps -0.1875±0.0034 dir -1.8780±0.1060 dclipT -0.0926±0.0050 dclipI -0.0898±0.0069 dclipImin -0.0669±0.0063
+  rg_ssrm_st_f0_K10                                            n=120 hps 0.1925 ir -1.6370 clipT 0.2175 clipI 0.6032 clipImin 0.5468 dhps -0.0670±0.0040 dir -1.2422±0.1057 dclipT -0.0208±0.0044 dclipI -0.0281±0.0068 dclipImin +0.0008±0.0068

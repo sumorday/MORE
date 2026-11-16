@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pt
+*.safetensors
+*.bin
+*.log
+models/
+models_ext/
+data/
+loras*/
+merged/
+gen_*/
+envs/
+ext/FreeFuse/
+ext/LoRAShop/

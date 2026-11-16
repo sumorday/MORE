@@ -1,0 +1,90 @@
+load checkpoint from <ROOT>/models_ext/metrics/imagereward/ImageReward.pt
+checkpoint loaded
+cached rg_avg_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20
+cached rg_avg_st_f0_K20
+cached rg_base_na_f0_K20
+cached rg_base_na_f1_n0_p2_cos_ii1_sg2_sgmb_K20
+cached rg_base_na_f1_n0_p2_cos_K20
+cached rg_nm_lg_f1_n0_p2_cos_K20
+cached rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_al_K20
+cached rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20
+cached rg_nm_st_f1_n0_p2_cos_ii1_sg2_sgmb_K20
+cached rg_nm_st_f1_n0_p2_cos_K20
+cached rg_np_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20
+cached rg_np_st_f0_K20
+cached rg_raw_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20
+cached rg_raw_st_f0_K20
+cached rg_ssrmc_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20
+cached rg_ssrmc_st_f0_K20
+cached rg_ssrm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20
+cached rg_ssrm_st_f0_K20
+cached rg_xlk2_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20
+cached rg_xlk4_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20
+cached sph_rc_nm_s0_up_K20
+cached xb_ff_K20
+cached xb_lcp_K20
+cached xb_ls_K20
+cached xb_lsw_K20
+cached xb_rp_K20
+cached xb_rp_w0.5_K20
+cached xb_sum_K20
+
+=== paired diff vs rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20
+  rg_avg_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20                n=120 hps 0.3029 ir 1.3750 clipT 0.2947 clipI 0.6183 clipImin 0.5535 dhps -0.0039±0.0030 dir -0.1315±0.0819 dclipT -0.0058±0.0030 dclipI -0.0177±0.0052 dclipImin -0.0037±0.0073
+  rg_avg_st_f0_K20                                             n=120 hps 0.2167 ir -1.0595 clipT 0.2143 clipI 0.5601 clipImin 0.4927 dhps -0.0902±0.0040 dir -2.5660±0.1164 dclipT -0.0862±0.0055 dclipI -0.0759±0.0073 dclipImin -0.0645±0.0082
+  rg_base_na_f0_K20                                            n=120 hps 0.2629 ir -0.4944 clipT 0.2295 clipI 0.5561 clipImin 0.4872 dhps -0.0440±0.0039 dir -2.0008±0.1235 dclipT -0.0710±0.0051 dclipI -0.0799±0.0084 dclipImin -0.0700±0.0097
+  rg_base_na_f1_n0_p2_cos_ii1_sg2_sgmb_K20                     n=120 hps 0.3040 ir 1.4601 clipT 0.2885 clipI 0.5790 clipImin 0.5140 dhps -0.0028±0.0031 dir -0.0464±0.0762 dclipT -0.0120±0.0031 dclipI -0.0570±0.0054 dclipImin -0.0432±0.0072
+  rg_base_na_f1_n0_p2_cos_K20                                  n=120 hps 0.3109 ir 1.2330 clipT 0.2874 clipI 0.5919 clipImin 0.5317 dhps +0.0040±0.0036 dir -0.2735±0.0978 dclipT -0.0131±0.0031 dclipI -0.0441±0.0058 dclipImin -0.0255±0.0074
+  rg_nm_lg_f1_n0_p2_cos_K20                                    n=120 hps 0.3007 ir 1.2238 clipT 0.2925 clipI 0.6317 clipImin 0.5377 dhps -0.0061±0.0028 dir -0.2827±0.0886 dclipT -0.0080±0.0030 dclipI -0.0043±0.0045 dclipImin -0.0195±0.0050
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_al_K20              n=120 hps 0.2881 ir 0.6497 clipT 0.2764 clipI 0.6336 clipImin 0.5352 dhps -0.0188±0.0035 dir -0.8567±0.1243 dclipT -0.0241±0.0037 dclipI -0.0024±0.0048 dclipImin -0.0220±0.0056
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20                 n=120 hps 0.3068 ir 1.5064 clipT 0.3005 clipI 0.6360 clipImin 0.5572
+  rg_nm_st_f1_n0_p2_cos_ii1_sg2_sgmb_K20                       n=120 hps 0.3044 ir 1.4413 clipT 0.2991 clipI 0.6471 clipImin 0.5702 dhps -0.0024±0.0024 dir -0.0651±0.0769 dclipT -0.0014±0.0026 dclipI +0.0111±0.0054 dclipImin +0.0130±0.0065
+  rg_nm_st_f1_n0_p2_cos_K20                                    n=120 hps 0.2938 ir 0.9278 clipT 0.2865 clipI 0.6550 clipImin 0.5645 dhps -0.0131±0.0032 dir -0.5786±0.1111 dclipT -0.0140±0.0038 dclipI +0.0190±0.0055 dclipImin +0.0073±0.0062
+  rg_np_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20                 n=120 hps 0.2940 ir 1.3353 clipT 0.2992 clipI 0.6372 clipImin 0.5574 dhps -0.0128±0.0017 dir -0.1711±0.0446 dclipT -0.0013±0.0020 dclipI +0.0012±0.0037 dclipImin +0.0002±0.0040
+  rg_np_st_f0_K20                                              n=120 hps 0.2283 ir -1.0491 clipT 0.2164 clipI 0.6154 clipImin 0.5014 dhps -0.0785±0.0045 dir -2.5555±0.1129 dclipT -0.0842±0.0056 dclipI -0.0206±0.0063 dclipImin -0.0558±0.0067
+  rg_raw_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20                n=120 hps 0.1998 ir -0.5387 clipT 0.2567 clipI 0.6157 clipImin 0.5620 dhps -0.1071±0.0042 dir -2.0451±0.1280 dclipT -0.0438±0.0050 dclipI -0.0203±0.0068 dclipImin +0.0048±0.0088
+  rg_raw_st_f0_K20                                             n=120 hps 0.1276 ir -2.0437 clipT 0.1758 clipI 0.5360 clipImin 0.4775 dhps -0.1792±0.0042 dir -3.5502±0.0782 dclipT -0.1247±0.0049 dclipI -0.1000±0.0066 dclipImin -0.0797±0.0076
+  rg_ssrmc_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20              n=120 hps 0.2944 ir 1.3068 clipT 0.2948 clipI 0.6405 clipImin 0.5696 dhps -0.0124±0.0029 dir -0.1996±0.0870 dclipT -0.0057±0.0029 dclipI +0.0045±0.0047 dclipImin +0.0124±0.0054
+  rg_ssrmc_st_f0_K20                                           n=120 hps 0.2276 ir -0.8984 clipT 0.2326 clipI 0.6105 clipImin 0.5116 dhps -0.0792±0.0042 dir -2.4048±0.1131 dclipT -0.0679±0.0059 dclipI -0.0255±0.0059 dclipImin -0.0456±0.0067
+  rg_ssrm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20               n=120 hps 0.2179 ir -0.7789 clipT 0.2342 clipI 0.5615 clipImin 0.5013 dhps -0.0889±0.0035 dir -2.2853±0.1120 dclipT -0.0663±0.0047 dclipI -0.0745±0.0064 dclipImin -0.0559±0.0075
+  rg_ssrm_st_f0_K20                                            n=120 hps 0.1749 ir -1.9263 clipT 0.1797 clipI 0.5311 clipImin 0.4731 dhps -0.1319±0.0034 dir -3.4327±0.0747 dclipT -0.1208±0.0052 dclipI -0.1049±0.0085 dclipImin -0.0841±0.0084
+  rg_xlk2_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20               n=120 hps 0.3185 ir 1.5880 clipT 0.2958 clipI 0.6386 clipImin 0.5728 dhps +0.0117±0.0023 dir +0.0816±0.0705 dclipT -0.0047±0.0026 dclipI +0.0026±0.0042 dclipImin +0.0156±0.0050
+  rg_xlk4_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20               n=120 hps 0.3223 ir 1.6448 clipT 0.2962 clipI 0.6278 clipImin 0.5625 dhps +0.0154±0.0023 dir +0.1384±0.0596 dclipT -0.0043±0.0026 dclipI -0.0082±0.0055 dclipImin +0.0054±0.0067
+  sph_rc_nm_s0_up_K20                                          n=120 hps 0.2415 ir -0.8800 clipT 0.2174 clipI 0.6272 clipImin 0.5116 dhps -0.0654±0.0047 dir -2.3864±0.1250 dclipT -0.0831±0.0057 dclipI -0.0088±0.0058 dclipImin -0.0456±0.0069
+  xb_ff_K20                                                    n=120 hps 0.2173 ir -0.6844 clipT 0.2447 clipI 0.6271 clipImin 0.5441 dhps -0.0896±0.0047 dir -2.1908±0.1388 dclipT -0.0558±0.0058 dclipI -0.0089±0.0063 dclipImin -0.0131±0.0079
+  xb_lcp_K20                                                   n=120 hps 0.1856 ir -1.2619 clipT 0.2142 clipI 0.5752 clipImin 0.5131 dhps -0.1212±0.0043 dir -2.7683±0.1223 dclipT -0.0863±0.0057 dclipI -0.0608±0.0069 dclipImin -0.0441±0.0081
+  xb_ls_K20                                                    n=120 hps 0.2246 ir -0.7792 clipT 0.2286 clipI 0.5702 clipImin 0.5063 dhps -0.0823±0.0041 dir -2.2856±0.1183 dclipT -0.0720±0.0051 dclipI -0.0658±0.0077 dclipImin -0.0509±0.0082
+  xb_lsw_K20                                                   n=120 hps 0.1792 ir -1.3327 clipT 0.2154 clipI 0.5677 clipImin 0.5031 dhps -0.1276±0.0045 dir -2.8391±0.1294 dclipT -0.0851±0.0054 dclipI -0.0683±0.0076 dclipImin -0.0541±0.0085
+  xb_rp_K20                                                    n=120 hps 0.1437 ir -1.7942 clipT 0.1897 clipI 0.5439 clipImin 0.4888 dhps -0.1632±0.0042 dir -3.3006±0.0840 dclipT -0.1108±0.0056 dclipI -0.0921±0.0069 dclipImin -0.0684±0.0078
+  xb_rp_w0.5_K20                                               n=120 hps 0.2378 ir -0.4167 clipT 0.2492 clipI 0.6071 clipImin 0.5329 dhps -0.0690±0.0042 dir -1.9231±0.1194 dclipT -0.0513±0.0041 dclipI -0.0289±0.0075 dclipImin -0.0243±0.0082
+  xb_sum_K20                                                   n=120 hps 0.1276 ir -2.0437 clipT 0.1758 clipI 0.5360 clipImin 0.4775 dhps -0.1792±0.0041 dir -3.5502±0.0787 dclipT -0.1247±0.0050 dclipI -0.1000±0.0064 dclipImin -0.0797±0.0077
+
+=== paired diff vs sph_rc_nm_s0_up_K20
+  rg_avg_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20                n=120 hps 0.3029 ir 1.3750 clipT 0.2947 clipI 0.6183 clipImin 0.5535 dhps +0.0615±0.0050 dir +2.2549±0.1241 dclipT +0.0773±0.0059 dclipI -0.0089±0.0060 dclipImin +0.0419±0.0072
+  rg_avg_st_f0_K20                                             n=120 hps 0.2167 ir -1.0595 clipT 0.2143 clipI 0.5601 clipImin 0.4927 dhps -0.0248±0.0043 dir -0.1796±0.1135 dclipT -0.0031±0.0052 dclipI -0.0671±0.0069 dclipImin -0.0189±0.0069
+  rg_base_na_f0_K20                                            n=120 hps 0.2629 ir -0.4944 clipT 0.2295 clipI 0.5561 clipImin 0.4872 dhps +0.0214±0.0043 dir +0.3855±0.1160 dclipT +0.0121±0.0056 dclipI -0.0711±0.0081 dclipImin -0.0244±0.0086
+  rg_base_na_f1_n0_p2_cos_ii1_sg2_sgmb_K20                     n=120 hps 0.3040 ir 1.4601 clipT 0.2885 clipI 0.5790 clipImin 0.5140 dhps +0.0626±0.0046 dir +2.3400±0.1154 dclipT +0.0712±0.0058 dclipI -0.0482±0.0062 dclipImin +0.0024±0.0077
+  rg_base_na_f1_n0_p2_cos_K20                                  n=120 hps 0.3109 ir 1.2330 clipT 0.2874 clipI 0.5919 clipImin 0.5317 dhps +0.0694±0.0050 dir +2.1129±0.1309 dclipT +0.0701±0.0057 dclipI -0.0352±0.0065 dclipImin +0.0201±0.0077
+  rg_nm_lg_f1_n0_p2_cos_K20                                    n=120 hps 0.3007 ir 1.2238 clipT 0.2925 clipI 0.6317 clipImin 0.5377 dhps +0.0593±0.0046 dir +2.1037±0.1287 dclipT +0.0751±0.0054 dclipI +0.0045±0.0050 dclipImin +0.0261±0.0062
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_al_K20              n=120 hps 0.2881 ir 0.6497 clipT 0.2764 clipI 0.6336 clipImin 0.5352 dhps +0.0466±0.0044 dir +1.5297±0.1331 dclipT +0.0590±0.0054 dclipI +0.0064±0.0051 dclipImin +0.0236±0.0061
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20                 n=120 hps 0.3068 ir 1.5064 clipT 0.3005 clipI 0.6360 clipImin 0.5572 dhps +0.0654±0.0046 dir +2.3864±0.1195 dclipT +0.0831±0.0055 dclipI +0.0088±0.0057 dclipImin +0.0456±0.0067
+  rg_nm_st_f1_n0_p2_cos_ii1_sg2_sgmb_K20                       n=120 hps 0.3044 ir 1.4413 clipT 0.2991 clipI 0.6471 clipImin 0.5702 dhps +0.0630±0.0050 dir +2.3213±0.1212 dclipT +0.0817±0.0057 dclipI +0.0200±0.0065 dclipImin +0.0586±0.0081
+  rg_nm_st_f1_n0_p2_cos_K20                                    n=120 hps 0.2938 ir 0.9278 clipT 0.2865 clipI 0.6550 clipImin 0.5645 dhps +0.0523±0.0049 dir +1.8078±0.1295 dclipT +0.0691±0.0055 dclipI +0.0278±0.0061 dclipImin +0.0529±0.0073
+  rg_np_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20                 n=120 hps 0.2940 ir 1.3353 clipT 0.2992 clipI 0.6372 clipImin 0.5574 dhps +0.0526±0.0047 dir +2.2153±0.1284 dclipT +0.0818±0.0057 dclipI +0.0101±0.0058 dclipImin +0.0458±0.0073
+  rg_np_st_f0_K20                                              n=120 hps 0.2283 ir -1.0491 clipT 0.2164 clipI 0.6154 clipImin 0.5014 dhps -0.0131±0.0021 dir -0.1691±0.0729 dclipT -0.0010±0.0031 dclipI -0.0118±0.0039 dclipImin -0.0102±0.0042
+  rg_raw_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20                n=120 hps 0.1998 ir -0.5387 clipT 0.2567 clipI 0.6157 clipImin 0.5620 dhps -0.0417±0.0056 dir +0.3413±0.1611 dclipT +0.0393±0.0065 dclipI -0.0114±0.0079 dclipImin +0.0504±0.0090
+  rg_raw_st_f0_K20                                             n=120 hps 0.1276 ir -2.0437 clipT 0.1758 clipI 0.5360 clipImin 0.4775 dhps -0.1139±0.0044 dir -1.1638±0.1058 dclipT -0.0416±0.0053 dclipI -0.0912±0.0070 dclipImin -0.0341±0.0074
+  rg_ssrmc_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20              n=120 hps 0.2944 ir 1.3068 clipT 0.2948 clipI 0.6405 clipImin 0.5696 dhps +0.0530±0.0052 dir +2.1868±0.1388 dclipT +0.0774±0.0059 dclipI +0.0133±0.0063 dclipImin +0.0580±0.0075
+  rg_ssrmc_st_f0_K20                                           n=120 hps 0.2276 ir -0.8984 clipT 0.2326 clipI 0.6105 clipImin 0.5116 dhps -0.0138±0.0032 dir -0.0185±0.1008 dclipT +0.0152±0.0048 dclipI -0.0167±0.0041 dclipImin +0.0000±0.0049
+  rg_ssrm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20               n=120 hps 0.2179 ir -0.7789 clipT 0.2342 clipI 0.5615 clipImin 0.5013 dhps -0.0235±0.0050 dir +0.1011±0.1427 dclipT +0.0168±0.0058 dclipI -0.0657±0.0076 dclipImin -0.0103±0.0075
+  rg_ssrm_st_f0_K20                                            n=120 hps 0.1749 ir -1.9263 clipT 0.1797 clipI 0.5311 clipImin 0.4731 dhps -0.0665±0.0042 dir -1.0464±0.1100 dclipT -0.0376±0.0061 dclipI -0.0960±0.0084 dclipImin -0.0385±0.0083
+  rg_xlk2_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20               n=120 hps 0.3185 ir 1.5880 clipT 0.2958 clipI 0.6386 clipImin 0.5728 dhps +0.0771±0.0050 dir +2.4679±0.1302 dclipT +0.0784±0.0061 dclipI +0.0114±0.0059 dclipImin +0.0612±0.0067
+  rg_xlk4_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K20               n=120 hps 0.3223 ir 1.6448 clipT 0.2962 clipI 0.6278 clipImin 0.5625 dhps +0.0808±0.0048 dir +2.5248±0.1208 dclipT +0.0788±0.0056 dclipI +0.0006±0.0063 dclipImin +0.0509±0.0075
+  sph_rc_nm_s0_up_K20                                          n=120 hps 0.2415 ir -0.8800 clipT 0.2174 clipI 0.6272 clipImin 0.5116
+  xb_ff_K20                                                    n=120 hps 0.2173 ir -0.6844 clipT 0.2447 clipI 0.6271 clipImin 0.5441 dhps -0.0242±0.0048 dir +0.1956±0.1442 dclipT +0.0273±0.0063 dclipI -0.0001±0.0064 dclipImin +0.0325±0.0072
+  xb_lcp_K20                                                   n=120 hps 0.1856 ir -1.2619 clipT 0.2142 clipI 0.5752 clipImin 0.5131 dhps -0.0558±0.0044 dir -0.3820±0.1258 dclipT -0.0032±0.0059 dclipI -0.0519±0.0070 dclipImin +0.0015±0.0076
+  xb_ls_K20                                                    n=120 hps 0.2246 ir -0.7792 clipT 0.2286 clipI 0.5702 clipImin 0.5063 dhps -0.0169±0.0047 dir +0.1008±0.1322 dclipT +0.0112±0.0060 dclipI -0.0570±0.0075 dclipImin -0.0053±0.0075
+  xb_lsw_K20                                                   n=120 hps 0.1792 ir -1.3327 clipT 0.2154 clipI 0.5677 clipImin 0.5031 dhps -0.0622±0.0043 dir -0.4527±0.1245 dclipT -0.0019±0.0054 dclipI -0.0595±0.0090 dclipImin -0.0085±0.0088
+  xb_rp_K20                                                    n=120 hps 0.1437 ir -1.7942 clipT 0.1897 clipI 0.5439 clipImin 0.4888 dhps -0.0978±0.0050 dir -0.9142±0.1217 dclipT -0.0277±0.0059 dclipI -0.0833±0.0071 dclipImin -0.0228±0.0074
+  xb_rp_w0.5_K20                                               n=120 hps 0.2378 ir -0.4167 clipT 0.2492 clipI 0.6071 clipImin 0.5329 dhps -0.0036±0.0045 dir +0.4632±0.1330 dclipT +0.0319±0.0056 dclipI -0.0200±0.0072 dclipImin +0.0213±0.0074
+  xb_sum_K20                                                   n=120 hps 0.1276 ir -2.0437 clipT 0.1758 clipI 0.5360 clipImin 0.4775 dhps -0.1139±0.0044 dir -1.1638±0.1032 dclipT -0.0416±0.0053 dclipI -0.0912±0.0068 dclipImin -0.0341±0.0072

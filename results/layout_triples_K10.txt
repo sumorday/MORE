@@ -1,0 +1,19 @@
+rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_K10                          n=120 min 0.101 mean 0.270 all 0.658 allC 0.608 minC 0.095 meanC 0.258 col 0.058 hit 0.842 hitAll 0.567
+rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K10                 n=120 min 0.119 mean 0.286 all 0.725 allC 0.692 minC 0.115 meanC 0.278 col 0.033 hit 0.872 hitAll 0.650
+rg_nm_st_f0_K10                                              n=120 min 0.047 mean 0.241 all 0.100 allC 0.100 minC 0.045 meanC 0.228 col 0.042 hit 0.181 hitAll 0.008
+rg_raw_st_f0_K10                                             n=120 min -0.007 mean 0.032 all 0.000 allC 0.000 minC -0.005 meanC 0.020 col 0.383 hit 0.000 hitAll 0.000
+rg_ssrm_st_f0_K10                                            n=120 min 0.030 mean 0.172 all 0.017 allC 0.017 minC 0.027 meanC 0.164 col 0.042 hit 0.106 hitAll 0.000
+
+=== paired diff vs rg_nm_st_f0_K10
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_K10                          n=120 allC 0.608 minC 0.095 meanC 0.258 col 0.058 hit 0.842 hitAll 0.567 dallC +0.508±0.048 dminC +0.049±0.007 dmeanC +0.030±0.010
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K10                 n=120 allC 0.692 minC 0.115 meanC 0.278 col 0.033 hit 0.872 hitAll 0.650 dallC +0.592±0.045 dminC +0.070±0.009 dmeanC +0.050±0.010
+  rg_nm_st_f0_K10                                              n=120 allC 0.100 minC 0.045 meanC 0.228 col 0.042 hit 0.181 hitAll 0.008
+  rg_raw_st_f0_K10                                             n=120 allC 0.000 minC -0.005 meanC 0.020 col 0.383 hit 0.000 hitAll 0.000 dallC -0.100±0.026 dminC -0.050±0.008 dmeanC -0.208±0.010
+  rg_ssrm_st_f0_K10                                            n=120 allC 0.017 minC 0.027 meanC 0.164 col 0.042 hit 0.106 hitAll 0.000 dallC -0.083±0.031 dminC -0.018±0.008 dmeanC -0.064±0.010
+
+=== paired diff vs rg_raw_st_f0_K10
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_K10                          n=120 allC 0.608 minC 0.095 meanC 0.258 col 0.058 hit 0.842 hitAll 0.567 dallC +0.608±0.045 dminC +0.099±0.010 dmeanC +0.238±0.011
+  rg_nm_lg_f1_n0_p2_cos_lu0.3_ii1_sg2_sgmb_K10                 n=120 allC 0.692 minC 0.115 meanC 0.278 col 0.033 hit 0.872 hitAll 0.650 dallC +0.692±0.042 dminC +0.120±0.012 dmeanC +0.258±0.010
+  rg_nm_st_f0_K10                                              n=120 allC 0.100 minC 0.045 meanC 0.228 col 0.042 hit 0.181 hitAll 0.008 dallC +0.100±0.028 dminC +0.050±0.008 dmeanC +0.208±0.010
+  rg_raw_st_f0_K10                                             n=120 allC 0.000 minC -0.005 meanC 0.020 col 0.383 hit 0.000 hitAll 0.000
+  rg_ssrm_st_f0_K10                                            n=120 allC 0.017 minC 0.027 meanC 0.164 col 0.042 hit 0.106 hitAll 0.000 dallC +0.017±0.012 dminC +0.032±0.005 dmeanC +0.144±0.009
