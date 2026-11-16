@@ -33,6 +33,7 @@ scripts/                     flat modules, run from the repository root (python 
   random_gp.py, ortho_reg.py                 merge variants of the ablation
   user_study.py              blind A/B trials (offline HTML) and their analysis
   make_paper_figs.py         Figs. 1, 3, 4, 5 and the user-study figures
+  make_supp_grids.py         unselected grids of the supplement (all 20 prompts, seed 6, every method)
 src/spherical_routing/
   spherical_svm.py           per-layer factors of a merge (LayerFactors)
   dynamic_hook.py            runtime hook: per-token weights of W0, W1..WK
